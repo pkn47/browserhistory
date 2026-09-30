@@ -2,7 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: DarkBlue;
   background-color: Ivory;
-  margin: 10px 50px;
+  margin: 10px 100px;
+  padding: 0 50px;
 }
  
 h1, h2, h3, h4, h5, h6 {
@@ -14,4 +15,25 @@ img.logo {
   height: 1.2em;
   width: auto;
   vertical-align: middle;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+/* three equal columns */
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* logo with text wrapping around it */
+img.logo {
+  float: left;
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
 }
