@@ -1,17 +1,18 @@
+/* Bootstrap handles layout; this file only sets fonts, colors and margins */
 body {
   font-family: 'Open Sans', sans-serif;
   color: DarkBlue;
   background-color: Ivory;
   margin: 10px 50px;
+  padding: 0 50px;
 }
- 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
- 
+
+/* Logo width; Bootstrap classes float it and add spacing */
 img.logo {
-  display: inline;
-  height: 1.2em;
-  width: auto;
-  vertical-align: middle;
+  width: 100px;
+  height: auto;
 }
